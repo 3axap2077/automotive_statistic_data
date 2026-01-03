@@ -112,3 +112,29 @@ JOIN Consumers c ON wa.agrid20 = c.agrid20
 Implementovaný ELT proces úspešne transformoval plochý súbor marketingových dát na robustný relačný a následne dimenzionálny model. Použitie **Star Schemy** optimalizuje výkonnosť dopytov pre potreby business intelligence a umožňuje sledovať cestu zákazníka (customer journey) v čase a priestore.
 
 ---
+## **5.Vizualizácia**
+1. Odhadovaný príjem (Estimated Income Code)
+   
+<img width="879" height="317" alt="visualisaton2" src="https://github.com/user-attachments/assets/04d7214a-8639-4367-91ce-9b13fd442c00" />
+
+Tento graf zobrazuje distribúciu spotrebiteľov podľa kódov odhadovaného príjmu, pričom kategória „N“ predstavuje najpočetnejšiu skupinu. Väčšina zákazníkov sa sústreďuje v prvých dvoch príjmových kategóriách, po ktorých nasleduje klesajúci trend.
+2. Distribúcia podľa štátov (State)
+
+<img width="869" height="310" alt="visualisaton4" src="https://github.com/user-attachments/assets/8a0b8235-f936-405e-9da1-1174ca15b0a5" />
+
+Vizualizácia porovnáva počty obyvateľov v jednotlivých štátoch, kde dominantné postavenie má Kalifornia (CA). Za ňou nasledujú Florida (FL) a Texas (TX), ktoré tvoria ďalšie významné lokality v databáze.
+3. Typy zariadení (Device Chart)
+
+<img width="540" height="308" alt="visualisaton3" src="https://github.com/user-attachments/assets/a4a04aa2-239e-4a29-9565-218d167046e9" />
+
+Tento koláčový graf rozdeľuje používateľov podľa značky ich mobilného zariadenia medzi Apple a Android. Z údajov vyplýva, že Apple má v rámci tejto vzorky miernu prevahu nad zariadeniami so systémom Android.
+4. Celkový počet návštev podľa dátumu (Total Visits)
+
+<img width="871" height="305" alt="visualisaton1" src="https://github.com/user-attachments/assets/55844d19-caa6-45ea-9df9-6e484979cc2d" />
+
+Graf dokumentuje vývoj počtu návštev v čase, pričom v marci 2024 je viditeľný prudký nárast aktivity. Pred týmto obdobím bol objem návštev výrazne nižší a stabilizovaný na minimálnych hodnotách.
+5. Počet obyvateľov podľa miest (City)
+
+<img width="863" height="309" alt="visualisaton5" src="https://github.com/user-attachments/assets/311105f7-3bdb-4c23-9807-e3c3a351eb21" />
+
+Táto vizualizácia zobrazuje rozloženie obyvateľov v konkrétnych mestách, kde najvyššie hodnoty dosahuje Saint Paul. Mestá ako Las Vegas a Los Angeles nasledujú v tesnom závese s mierne nižším zastúpením.
