@@ -27,7 +27,7 @@ Dáta prechádzajú tromi úrovňami:
 
 Navrhnutý model je **schéma hviezdy (star schema)**, ktorá pozostáva z tabuľky faktov a štyroch dimenzií:
 
-### **Tabuľka faktov: `Fact_Marketing**`
+### **Tabuľka faktov: `Fact_Marketing`**
 
 Obsahuje kľúčové metriky a prepojenia na dimenzie:
 
