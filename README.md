@@ -106,24 +106,9 @@ JOIN Consumers c ON wa.agrid20 = c.agrid20
 
 ```
 
----
 
 ## **4. Zhrnutie**
 
 Implementovaný ELT proces úspešne transformoval plochý súbor marketingových dát na robustný relačný a následne dimenzionálny model. Použitie **Star Schemy** optimalizuje výkonnosť dopytov pre potreby business intelligence a umožňuje sledovať cestu zákazníka (customer journey) v čase a priestore.
 
 ---
-
-**Autor:** [Vaše Meno]
-**Dátum:** 2. 1. 2026
-
-> #### 💡 Kľúčové vlastnosti riešenia
-> 
-> 
-> * Robustné ošetrenie dátových typov (dátumy, súradnice).
-> * Využitie window funkcií pre hĺbkovú analýzu správania.
-> * Prehľadná štruktúra od stagingu až po faktovú tabuľku.
-> 
-> 
-
-Chceli by ste, aby som k niektorej časti kódu (napr. k transformácii GeoLocation) dopísal podrobnejší technický komentár?
