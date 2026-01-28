@@ -56,7 +56,7 @@ CREATE TABLE Properties (
 
 CREATE TABLE Devices (
     device_id VARCHAR(100) PRIMARY KEY,
-    device_type VARCHAR(50) -- e.g., IDFA, GAID
+    device_type VARCHAR(50) 
 );
 
 CREATE OR REPLACE TABLE WebActivity (
